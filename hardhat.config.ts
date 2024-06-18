@@ -1,5 +1,7 @@
 import { HardhatUserConfig } from "hardhat/config";
-import "@nomicfoundation/hardhat-toolbox";
+import "@nomiclabs/hardhat-etherscan";
+import "@nomiclabs/hardhat-waffle";
+import "@typechain/hardhat";
 
 const SEPOLIA_URL = "https://sepolia.infura.io/v3/c9470e784de8487eaa7e08de876031bb";
 const SEPOLIA_CHAIN_ID = 11155111;

@@ -14,5 +14,9 @@ This project demonstrates the deployment of Uniswap V3
 
 deploy-uniswap-v3.ts
 
-Replace your own WETH9 contract address
+    Replace your own/chain specific WETH9 contract address
+
+contracts/NonfungibleTokenPositionDescriptor.sol
+
+    Replace your own/chain specific token addresses
 
